@@ -1,0 +1,46 @@
+How to use github from command line
+===================================
+
+1. goto git official website i.e. https://git-scm.com
+
+2. download git software for windows
+
+3. install the software after downloading it
+
+4. Run the "Git Bash" software. A git command line will be opened.
+
+5. Change drive by writing "cd /drive-name" and press enter button.
+
+6. Change folder / directory by writing "cd folder-name" and press enter button.
+
+7. Go back from the folder / directory by writing "cd //" and press enter button.
+
+8. You can check list of folders / files in a folder by writing "ls" and press enter button.
+
+9. Now, type command ( git config --global user.name "ZafarBukhari" )
+
+10. type command ( git config --global user.email bukhary72pk@yahoo.com
+
+11. type command ( git clone https://github.com/ZafarBukhari/AI-ISB-Q1.git )
+
+12. it will done remote cloning and will create a folder within the same folder with same name and will sync with the github repository.
+
+13. Now, switch to inner folder by writing "cd ai-isb-q1" i.e. (newly created folder name).
+
+14. create a file inside it "syncronized folder".
+
+15. write command on git bash terminal "git add using_git.txt" i.e. newly created file.
+
+16. check status by writing command "git status" and press enter button. This will verify that newly created file (using_git.txt in this case) has been sync with master or branch repository.
+
+17. Then before uploading, do commit by writing "git commit -m ("any comments") using_git.txt" and press enter button. This will commit the file with Github.
+
+18. Now, push your file at git repository by writing this command i.e.
+     "git push -u origin master" and press enter button.
+
+19. Now, first time a login screen will display, enter here the git username and password.
+
+20. Now, goto github page, refresh it. You will see that the desired file has been "PUSHED" into github repository.
+
+21. That's all.....
+
